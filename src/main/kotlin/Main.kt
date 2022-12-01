@@ -1,4 +1,7 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
-    println("Program arguments: ${args.joinToString()}")
+import day1.DayOneElvesCarryingCalories
+
+fun main() {
+    DayOneElvesCarryingCalories().dayOneFunction()
+    DayOneElvesCarryingCalories().optimisedDayOneFunction()
+    DayOneElvesCarryingCalories().optimisedDayOneFunctionWithoutWhile()
 }
